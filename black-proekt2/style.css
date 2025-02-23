@@ -1,20 +1,18 @@
-
 body {
-    background-color: #244BC5;
-    background-image: url(bg.png);
-    background-size: cover;
+    background-color: #1a1a1a;
+    background-image: url(line.png  );
     background-repeat: no-repeat;
-    background-position: center;
-    position: relative;
+   background-position: bottom;
 }
 
 .containerwhite {
     background-color: white;
     width: 400px;
-    height: 350px;
+    height: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     border-radius: 15px;
 }
 
@@ -23,6 +21,7 @@ h3 {
     position: relative;
     top: 100px;
     text-align: center;
+    padding-top: 20px;
 }
 
 .mb-3 {
@@ -35,7 +34,7 @@ h3 {
 
 input {
     background-color: rgb(218, 218, 218);
-    width: 300px;
+    width: 315px;
     border-style: none;
     border-radius: 5px;
     height: 25px;
@@ -54,7 +53,6 @@ input {
     text-decoration: none;
     color: rgb(204, 204, 204);
     font-size: 15px;
-    margin-top: 20px;
     text-align: right;
     
 }
@@ -62,12 +60,12 @@ input {
 p {
     color: rgb(55, 55, 55);
     position: relative;
-    top: 130px;
+    top: 140px;
 }
 
 
 .btn.btn-primary {
-    background-color: #244BC5;
+    background-color: #3a3a3a;
     height: 40px;
     color: white;
     border-style: none;
@@ -82,4 +80,10 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+i {
+   position: relative;
+   left: 290px;
+   bottom: 20px;
 }
